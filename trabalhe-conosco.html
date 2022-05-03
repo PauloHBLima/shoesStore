@@ -23,7 +23,7 @@
             </ul>
         </nav>
     </header>
-    <section>
+    <section class="primeiroBloco">
 
         <div class="titulo">
             <p class="tituloTime">Faça parte do nosso time</p>
@@ -31,14 +31,16 @@
 
         <div class="formulario">
             <form action="email" method="POST">
-
                 <label for="nome">Nome</label>
+
                 <br>
+
                 <input type="text" name="nome" id="nome">
             </form>
+
             <br>
 
-            <form action="nome" method="POST">
+            <form action="email" method="POST">
                 <label for="email">E-mail</label>
                 <br>
                 <input type="text" name="email" id="email">
@@ -52,55 +54,64 @@
                     pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required>
             </form>
             <br>
-            <form action="departamentos" method="POST">
+            <form action="depart" method="POST">
                 <label for="departamentos">Departamentos</label>
                 <br>
                 <input type="text" name="departamentos" id="Departamentos">
             </form>
-            <br>
+        </div>
 
+        <br>
 
-            <h4>Disponibilidade</h4>
-            <br>
+        <div class="subtitulo">Disponibilidade</div>
+
+        <div class="horario">
+
 
             <form action="resultado.html" method="POST">
                 <label for="Disponibilidade"></label>
 
                 <input type="checkbox" id="integral" name="Disponibilidade" value="integral">
                 <label for="integral">Integral (8h)</label>
-                <br>
+
                 <input type="checkbox" id="meioPeriodo" name="Disponibilidade" value="meioPeriodo">
                 <label for="meioPeriodo">Meio Periodo (4h)</label>
-                <br>
+
                 <input type="checkbox" id="freelancer" name="Disponibilidade" value="freelancer">
                 <label for="freelancer">Freelancer</label>
-                <br>
-                <input type="submit" value="Enviar">
-            </form>
-
-            <br>
-            <h4>Qual é a melhor forma de entrarmos em contato com você?</h4>
-            <br>
-
-            <form action="contato" method="POST">
-                <label for="E-mail"></label>
-                <input type="radio" id="sim" name="E-mail" value="sim">
-                <label for="sim">E-mail</label>
-                <br>
-
-                <label for="Ligação"></label>
-                <input type="radio" id="sim" name="Ligação" value="sim">
-                <label for="sim">Ligação</label>
-
-                <br>
-
-                <input type="radio" id="não" name="WhatsApp" value="não">
-                <label for="não">WhatsApp</label>
-                <input type="submit" value="Enviar">
-
 
             </form>
+        </div>
+        <br>
+        <div class="trabalheConosco">Qual é a melhor forma de entrarmos em contato com você?</div>
+        <br>
+        <div class="comunicacao">
+            <input type="radio" id="email" name="email" value="email">
+              <label for="contato">Email</label><br>
+            <input type="radio" id="ligação" name="ligação" value="ligação">
+              <label for="contato">Ligação</label><br>
+            <input type="radio" id="whatsapp" name="whatsapp" value="whatsapp">
+              <label for="contato">Whatsapp</label>
+            <br>
+        </div>
 
+        <div class="completeAqui">
+            <form action="contact" method="post">
+                <br>
+                <label for="comentario">Mensagem:</label>
+                <br>
+
+                <textarea name="comentario" id="comentario">Conteúdo</textarea>
+        </div>
+        </form>
+
+        </form>
+
+        
+        <div class="enviar">
+            <p>Curriculo</p>
+            <input type="button" value="upload" onclick="msg()">
+        </div>
 
         </div>
 
