@@ -72,3 +72,31 @@ margin-bottom: 36px;
     display: flex;
     flex-direction: row;
 }
+
+.formulario input{
+    width: 538px;
+    height: 26px;
+}
+
+.horario input {
+    width: 30px;
+
+}
+
+.comunicacao input {
+    width: 40px;
+   
+}
+
+.completeAqui textarea {
+    width: 536.64px;
+    height: 78px;
+}
+
+
+.enviar input {
+    width:80px;
+    color: #C4C4C4;
+    font-size: "roboto";
+
+}
