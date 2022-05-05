@@ -37,6 +37,7 @@ nav {
     font-weight: 600;
     font-size: 24px;
 }
+
 .nav-links li a {
     text-decoration: none;
     color: #777777;
@@ -46,9 +47,26 @@ nav {
 .tituloTime {
     font-family: "Open Sans semibold 600";
     font-size: 39px;
-margin-bottom: 36px;
-    
+    margin-bottom: 36px;
+
 }
+
+
+.freteGratis {
+    display: flex;
+    color: white;
+    background-color: #C2185B;
+    background-size: 32px;
+    font-family: "Open Sans semibold 600";
+    display: flex;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: center;
+    
+
+}
+
 
 .primeiroBloco {
     margin-left: 68px;
@@ -73,7 +91,7 @@ margin-bottom: 36px;
     flex-direction: row;
 }
 
-.formulario input{
+.formulario input {
     width: 538px;
     height: 26px;
 }
@@ -85,7 +103,7 @@ margin-bottom: 36px;
 
 .comunicacao input {
     width: 40px;
-   
+
 }
 
 .completeAqui textarea {
@@ -95,7 +113,7 @@ margin-bottom: 36px;
 
 
 .enviar input {
-    width:80px;
+    width: 80px;
     color: #C4C4C4;
     font-size: "roboto";
 
@@ -105,19 +123,27 @@ margin-bottom: 36px;
     background-color: #C2185B;
     height: 33px;
     width: 536.64px;
-text-align: center;
-font-size: "roboto";
-font-weight: 800;
-color: white;
-padding-top: 5px; 
+    text-align: center;
+    font-size: "roboto";
+    font-weight: 800;
+    color: white;
+    padding-top: 5px;
+    border: none;
+}
 
-
+.botaoFinal :hover {
+    filter: invert();
+    transition: 3s;
+    background-color: #C2185B;
+    border: none;
 }
 
 footer {
-    background-color: #C2185B;;
+    background-color: #C2185B;
+    ;
     display: flex;
     margin: auto;
+
 }
 
 .boxFooter1 {
@@ -135,7 +161,7 @@ footer {
     position: relative;
     bottom: 9%;
     color: #FFFFFF;
-    
+
 }
 
 .boxFooter2 {
