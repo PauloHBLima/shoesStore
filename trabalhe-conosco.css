@@ -56,24 +56,45 @@ nav {
     display: flex;
     color: white;
     background-color: #C2185B;
+    z-index: 15px;
     background-size: 32px;
+    justify-content: center;
+    display: block;
+    position: sticky;
+    z-index: 15;
+}
+
+.frete {
+
+    color: white;
+    z-index: 1px;
     font-family: "Open Sans semibold 600";
-    display: flex;
+    display: block;
     font-size: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
     justify-content: center;
-    
 
 }
-
 
 .primeiroBloco {
     margin-left: 68px;
     margin-top: 55px;
-
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    
+    flex-wrap: wrap;
 }
 
+.segundobloco {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    flex-wrap: wrap;
+    flex-flow: column;
+}
 
 
 .horario {
