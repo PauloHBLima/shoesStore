@@ -50,21 +50,23 @@ nav {
     margin-bottom: 36px;
 }
 
-.primeiroBloco {
 
-    width: 50%;
+.primeiroBloco {
     display: flex;
+    width: 100%;
     margin-left: 123px;
     margin-top: 177px;
 }
 
 .segundoBloco {
-    width: 50%;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 55px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 75px;
+    padding-right: 80px;
 }
+
 
 .frete {
     position: sticky;
@@ -87,30 +89,52 @@ nav {
 .formulario h1 {
     display: flex;
     margin-top: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 36px;
     font-size: 39px;
     font-weight: 600;
     font-family: "Open Sans";
     color: #575757;
 }
 
+
 .formulario input[type="text"] {
     width: 100%;
+    margin-bottom: 15px;
 }
 
 .formulario input[type="tel"] {
     width: 100%;
-}
-.formulario select {
-    width: 100%;
-}
-.formulario textarea{
-width: 100%;
-height: 100px;
+    margin-bottom: 15px;
 }
 
-.formulario input[type="button"]{
-    width:25%;
+.formulario select {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.formulario input[type="checkbox"] {
+    margin-bottom: 15px;
+}
+
+.formulario input[type="radio"] {
+    margin-bottom: 15px;
+}
+
+
+.formulario p {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.formulario textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 22px;
+}
+
+.formulario input[type="button"] {
+    width: 25%;
+    margin-bottom: 22px;
 }
 
 
@@ -124,9 +148,11 @@ height: 100px;
     color: white;
     padding-top: 5px;
     border: none;
+    margin-bottom: 76px;
+   
 }
 
-.botaoFinal :hover {
+.botaoFinal:hover {
     filter: invert();
     transition: 3s;
     background-color: #C2185B;
@@ -135,7 +161,6 @@ height: 100px;
 
 footer {
     background-color: #C2185B;
-    ;
     display: flex;
     margin: auto;
 }
