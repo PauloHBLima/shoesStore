@@ -47,24 +47,33 @@ nav {
 .tituloTime {
     font-family: "Open Sans semibold 600";
     font-size: 39px;
-    margin-bottom: 36px;
+    padding-bottom: 70px;
+
 }
 
+.formulario {
+    width: 80%;
+    margin: 0 auto;
 
-.primeiroBloco {
+}
+
+.geral {
     display: flex;
     width: 100%;
-    margin-left: 123px;
-    margin-top: 177px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .segundoBloco {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+    width:50%;
+    padding-top: 120px;
     padding-left: 75px;
-    padding-right: 80px;
+    padding-right: 75px;
+    text-align: justify;
+}
+
+.primeiroBloco {
+    width: 50%;
 }
 
 
@@ -149,7 +158,7 @@ nav {
     padding-top: 5px;
     border: none;
     margin-bottom: 76px;
-   
+
 }
 
 .botaoFinal:hover {
